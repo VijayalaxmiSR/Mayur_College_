@@ -3,11 +3,16 @@
   }
 #logo
 {
-    width: 30%;
-    height: 30%;
+    width: 10%;
+    height: 10%;
     padding-top: 10px;
    
     
+}
+#logoM
+{
+  width: 80px;
+  height: 80px;
 }
 
 
@@ -108,6 +113,9 @@
 	margin-right: 30px;
 	position: relative;
 	padding-left: 45px;
+}
+.header-contact-info p{
+  font-size: small;
 }
 
 .header-contact-info ul li:last-child {
