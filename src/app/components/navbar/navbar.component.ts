@@ -44,6 +44,12 @@ apply()
 {
   this.router.navigate(['/apply']);
 }
+// Define the downloadApplication function
+downloadApplication() {
+  // Replace '/assets/pdfs/MayurCollegeApplication.pdf' with the actual path to your PDF file
+  window.open('/assets/pdfs/MayurCollegeApplication.pdf', '_blank');
+}
+
 
 
 

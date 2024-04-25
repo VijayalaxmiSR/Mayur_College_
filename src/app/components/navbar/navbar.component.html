@@ -1,12 +1,20 @@
 <header class="header-area">
   <div class="container">
       <div class="row">
-          <div class="col-xl-3 col-lg-3 col-md-12">
+          <div class="col-xl-3 col-lg-3 col-md-5">
               <div class="header-logo">
+                <div id="logoM">
                   <a href="index-2.html">
-                      <img src="assets/logoM.png"  id="logoM" alt="Awesome Logo">
-                  </a>
+                    <img src="assets/logoM.png"   alt="Awesome Logo">
+                </a>
+                </div>
+
+                  <div class="clg_name">
+                    <h1>M A Y U R </h1>
+                    <h4>College Of Pharmacy</h4>
+                  </div>
               </div>
+              
           </div>
           <div class="col-xl-9 col-lg-9 col-md-12">
               <div class="header-contact-info">
@@ -85,10 +93,10 @@
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="about">Overview</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="chairman">Chairman's Message</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <!-- <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="ceo">CEO's Message</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="secretary">Secretary's Message</a></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="secretary">Secretary's Message</a></li> -->
               <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="director">Directors's Message</a></li>
             <li><hr class="dropdown-divider"></li>
@@ -99,20 +107,24 @@
           
           <li class="nav-item mx-3 dropdown dropdown-hover"> <!-- Add dropdown-hover class -->
             <a class="nav-link"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Acadamics
+              Courses
             </a>
             <ul class="dropdown-menu">
 
 
 
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="bsc">BSc in Nursing</a></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="bsc">D.pharm</a></li>
               <li><hr class="dropdown-divider"></li>              
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="msc">MSc in Nursing</a></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="msc">B.pharm</a></li>
               <li><hr class="dropdown-divider"></li>
-            
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="affiliations">Affiliations</a></li>
             </ul>
           </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="affiliations">Affiliations</a>
+          </li>
+            
+       
+
 
          
          
@@ -121,7 +133,7 @@
               Facilities
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="clinical">Clinical Facilities</a></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="canteen">Classroom</a></li>
               <li><hr class="dropdown-divider"></li> 
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="laboratory">Laboratory</a></li>
               <li><hr class="dropdown-divider"></li>             
@@ -129,7 +141,7 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="hostel">Hostel</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="canteen">Canteen</a></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="clinical">Computer Labs</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="transportation">Transportation</a></li>
               <li><hr class="dropdown-divider"></li>
