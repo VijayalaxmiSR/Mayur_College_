@@ -18,7 +18,7 @@
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
 }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
  
     .image-half
     {
@@ -61,12 +61,21 @@ img
 {
     width: 30%;
 }
-.col-md-6
-{
-    
-    padding: 20px;
+.col-md-6 {
+  padding: 20px;
+  width: 30%; /* Set width to 100% for smaller screens */
+  margin: 20px;
 }
-.one
-{
-    background-color: beige;
+
+.one {
+  background-color: beige;
+}
+
+/* Adjusting column width for smaller screens */
+@media only screen and (max-width: 900px) {
+  .col-md-6 {
+    width: 100%; /* Set width to 100% for smaller screens */
+    margin: 10px 0; /* Adjust margin for spacing */
+    
+  }
 }
